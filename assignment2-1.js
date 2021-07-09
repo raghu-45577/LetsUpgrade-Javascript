@@ -1,0 +1,25 @@
+three=0
+five=0
+for(let i=1;i<=100;i++)
+{
+    s=""
+    three++
+    five++
+    if(three===3)
+    {
+        s+='Fizz'
+        three=0
+    }
+    if(five===5)
+    {
+        s+='Buzz'
+        five=0
+    }
+    if(s==="")
+    {
+        console.log(i)
+    }
+    else{
+        console.log(s)
+    }
+}
